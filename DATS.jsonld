@@ -1,8 +1,8 @@
 {
-    	"$schema": "https://w3id.org/dats/schema/dataset_schema.json",
+    	"@context": "https://w3id.org/dats/schema/dataset_schema.json",
     	"@type": "Dataset",
 	"identifier": {
-                "$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+                "@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 "@type": "Identifier",
 		"identifier": "dummy",
 		"identifierSource": "DOI"
@@ -11,14 +11,14 @@
 	"privacy": "public open",
 	"licenses": [
 		{
-			"$schema": "https://w3id.org/dats/schema/license_schema.json",
+			"@id": "https://w3id.org/dats/schema/license_schema.json",
 			"@type": "Licence",
 			"name": "BY-NC-SA"
 		}
 	],
 	"creators": [
 		{
-			"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+			"@id": "https://w3id.org/dats/schema/organization_schema.json",
 			"@type": "Organization",
 			"name": "Varies between files"
 		}
@@ -37,10 +37,10 @@
 	},
 	"dates": [
 		{
-			"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+			"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 			"@type": "Date",
 			"type": {
-				"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+				"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 				"@type": "Annotation",
 				"value":"CONP DATS JSON fileset creation date"
 			},
@@ -49,7 +49,7 @@
 	],
 	"keywords": [
 		{
-			"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+			"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 			"@type": "Annotation",
 			"value" : "reference sequences"
 		},
@@ -61,10 +61,10 @@
 		{
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
-						"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 						"@type": "Annotation",
 						"value":"reference data download date"
 					},
@@ -85,7 +85,7 @@
 			],
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Size of genome (in Mb)"
@@ -95,7 +95,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Percentage of genome composed of guanine/cytosine"
@@ -105,7 +105,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Number of identified protein-encoding genes in genome"
@@ -117,10 +117,10 @@
 			],
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-						"$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+						"@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
     					        "@type": "Identifier",
 						"identifier": "9606",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9606"
@@ -130,7 +130,7 @@
 			],
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "Genome Reference Consortium"
 				}
@@ -149,10 +149,10 @@
 		{
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
-						"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 						"@type": "Annotation",
 						"value":"reference data download date"
 					},
@@ -173,7 +173,7 @@
 			],
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Size of genome (in Mb)"
@@ -183,7 +183,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Percentage of genome composed of guanine/cytosine"
@@ -193,7 +193,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Number of identified protein-encoding genes in genome"
@@ -205,10 +205,10 @@
 			],
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {	
-				                "$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+				                "@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "10090",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10090"
@@ -218,7 +218,7 @@
 			],
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "Genome Reference Consortium"
 				}
@@ -237,10 +237,10 @@
 		{
 			"dates": [
 				{
-					"$schema": "https://w3id.org/dats/schema/date_info_schema.json",
+					"@id": "https://w3id.org/dats/schema/date_info_schema.json",
 					"@type": "Date",
 					"type": {
-						"$schema": "https://w3id.org/dats/schema/annotation_schema.json",
+						"@id": "https://w3id.org/dats/schema/annotation_schema.json",
 						"@type": "Annotation",
 						"value":"reference data download date"
 					},
@@ -261,7 +261,7 @@
 			],
 			"dimensions": [
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Size of genome (in Mb)"
@@ -271,7 +271,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Percentage of genome composed of guanine/cytosine"
@@ -281,7 +281,7 @@
 					]
 				},
 				{
-					"$schema": "https://w3id.org/dats/schema/dimension_schema.json",
+					"@id": "https://w3id.org/dats/schema/dimension_schema.json",
 					"@type": "Dimension",
 					"name": {
 						"value": "Number of identified protein-encoding genes in genome"
@@ -293,10 +293,10 @@
 			],
 			"isAbout": [
 				{
-					"$schema": "https://w3id.org/dats/schema/biological_entity_schema.json",
+					"@id": "https://w3id.org/dats/schema/biological_entity_schema.json",
 					"@type": "BiologicalEntity",
 					"identifier": {
-				                "$schema": "https://w3id.org/dats/schema/identifier_info_schema.json",
+				                "@id": "https://w3id.org/dats/schema/identifier_info_schema.json",
                 				"@type": "Identifier",
 						"identifier": "9483",
 						"identifierSource":"https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=9483"
@@ -306,7 +306,7 @@
 			],
 			"creators": [
 				{
-					"$schema": "https://w3id.org/dats/schema/organization_schema.json",
+					"@id": "https://w3id.org/dats/schema/organization_schema.json",
 					"@type": "Organization",
 					"name": "Washington University"
 				}
