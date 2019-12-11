@@ -35,6 +35,21 @@
 			"date": "2019-08-13 13:48:54"
 		}
 	],
+	"distributions": [
+	        {
+			"formats": [
+				"gff",
+				"FASTA"
+            		],
+			"size" : "2.8",
+		        "unit" : {
+            			"value": "GB"
+		        },
+			"access": {
+				"landingPage": "https://www.ncbi.nlm.nih.gov/refseq"
+			}
+		}
+	],
 	"keywords": [
 		{
 			"value" : "reference sequences"
@@ -267,6 +282,22 @@
 			"values": [
 				{
 					"value": "Jennifer Tremblay-Mercier, Research Co-ordinator, jennifer.tremblay-mercier@douglas.mcgill.ca, 514-761-6131 #3329"
+				}
+			]
+		},
+		{
+			"category": "files",
+			"values": [
+				{
+					"value": "10"
+				}
+			]
+		},
+		{
+			"category": "logo",
+			"values": [
+				{
+					"value": "logo.jpg"
 				}
 			]
 		}
