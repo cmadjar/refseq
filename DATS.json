@@ -41,7 +41,7 @@
 				"gff",
 				"FASTA"
             		],
-			"size" : "2.8",
+			"size" : 2.8,
 		        "unit" : {
             			"value": "GB"
 		        },
