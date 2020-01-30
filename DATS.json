@@ -70,7 +70,7 @@
 			],
 			"title":"Homo sapiens reference sequence",
 			"storedIn": {
-				"name": "ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_mammalian/Homo_sapiens/latest_assembly_versions/GCF_000001405.38_GRCh38.p12/GCF_000001405.38_GRCh38.p12_genomic.fna.gz",
+				"name": "ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_mammalian/Homo_sapiens/latest_assembly_versions/GCF_000001405.39_GRCh38.p12/GCF_000001405.39_GRCh38.p12_genomic.fna.gz",
 				"description": "FTP link to FASTA file containing DNA sequence"
 			},
 			"types": [
@@ -125,7 +125,7 @@
 					"category": "FTP link to GFF file containing detailed annotations",
 					"values": [
 						{
-							"value": "ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_mammalian/Homo_sapiens/latest_assembly_versions/GCF_000001405.38_GRCh38.p12/GCF_000001405.38_GRCh38.p12_genomic.gff.gz"
+							"value": "ftp://ftp.ncbi.nlm.nih.gov/genomes/refseq/vertebrate_mammalian/Homo_sapiens/latest_assembly_versions/GCF_000001405.39_GRCh38.p12/GCF_000001405.39_GRCh38.p12_genomic.gff.gz"
 						}
 					]
 				}
