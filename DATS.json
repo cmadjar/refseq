@@ -46,7 +46,8 @@
             			"value": "GB"
 		        },
 			"access": {
-				"landingPage": "https://www.ncbi.nlm.nih.gov/refseq"
+				"landingPage": "https://www.ncbi.nlm.nih.gov/refseq",
+				"annotation": "public"
 			}
 		}
 	],
