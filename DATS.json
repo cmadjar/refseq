@@ -47,7 +47,11 @@
 		        },
 			"access": {
 				"landingPage": "https://www.ncbi.nlm.nih.gov/refseq",
-				"annotation": "public"
+				"authorizations": [
+					{
+						"value": "public"
+					}
+				]
 			}
 		}
 	],
