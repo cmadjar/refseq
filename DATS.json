@@ -125,6 +125,21 @@
 					"name": "Genome Reference Consortium"
 				}
 			],
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "reference sequences"
+				},
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "GCF_000001405.39_GRCh38.p12",
+			"description": "Homo sapiens reference genome annotations.",
 			"extraProperties": [
 				{
 					"category": "FTP link to GFF file containing detailed annotations",
@@ -197,6 +212,21 @@
 					"name": "Genome Reference Consortium"
 				}
 			],
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "reference sequences"
+				},
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "GCF_000001635.38_GRCm38.p6",
+			"description": "Mus musculus reference genome annotations.",
 			"extraProperties": [
 				{
 					"category": "FTP link to GFF file containing detailed annotations",
@@ -269,6 +299,21 @@
 					"name": "Washington University"
 				}
 			],
+			"licenses": [
+				{
+					"name": "BY-NC-SA"
+				}
+			],
+			"keywords": [
+				{
+					"value" : "reference sequences"
+				},
+				{
+					"value" : "genomics"
+				}
+			],
+			"version": "GCF_000004665.1_Callithrix_jacchus-3.2",
+			"description": "Callithrix jacchus reference genome annotations.",
 			"extraProperties": [
 				{
 					"category": "FTP link to GFF file containing detailed annotations",
